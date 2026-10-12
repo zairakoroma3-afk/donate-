@@ -42,3 +42,19 @@ DONATION UPDATE
 - This website DOES NOT collect banking usernames or passwords.
 - Visitors choose their bank through Zelle and sign in only through their bank's own site/app.
 - No additional payment accounts were invented. Visitors are told to contact 703-870-9966 or Upliftinghope26@gmail.com for other payment options.
+
+
+ULTIMATE DETAIL UPDATE
+- Added the provided video as UpliftingHopeStory.mp4.
+- Homepage now has the COMPLETE founder story, mission, vision, dream, and commitment beside the video.
+- No founder photo was added.
+- No outside/stock photos were added.
+- Get Involved is now a detailed clickable hub.
+- Volunteer option opens volunteer.html.
+- Volunteer application asks for name, email, phone, location, interests, availability, skills/experience, and reason for volunteering.
+- Volunteer submissions are sent to Upliftinghope26@gmail.com through FormSubmit.
+- Contact page now contains a detailed contact form that sends submissions to Upliftinghope26@gmail.com.
+- Added form-handler.js for background/AJAX submission with a regular secure FormSubmit fallback.
+- First FormSubmit submission may require a one-time email activation from FormSubmit before automatic delivery begins.
+- Donation and Support a Child pages remain included with Zelle recipient 703-870-9966.
+- Zelle bank finder uses the official Zelle enrollment/bank-finder page.

@@ -8,7 +8,6 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
 <header class="site-header">
   <div class="topbar">
     <div class="wrap topbar-inner">
@@ -60,8 +59,9 @@
       <div class="dropdown">
         <button type="button">Get Involved ▾</button>
         <div class="dropdown-menu">
-          <a href="get-involved.html#volunteers">Volunteer</a>
-          <a href="get-involved.html#families">Families</a>
+          <a href="volunteer.html">Volunteer Application</a>
+          <a href="support-a-child.html">Support a Child</a>
+          <a href="get-involved.html#families">Individuals & Families</a>
           <a href="get-involved.html#leaders">Community Leaders</a>
           <a href="get-involved.html#organizations">Organizations & Businesses</a>
           <a href="donate.html">Donate</a>
@@ -82,37 +82,101 @@
     <a class="btn gold header-donate" href="donate.html">♥ DONATE NOW</a>
   </div>
 </header>
-
 <main>
-<section class="page-hero">
-  <div class="wrap narrow">
-    <span class="eyebrow">CONTACT</span>
-    <h1>We'd Love to Hear From You.</h1>
-    <p>Contact Uplifting Hope Charity Organization about the mission, programs, volunteering, partnership, or donating.</p>
+<section class="form-hero contact-form-hero">
+  <div class="wrap form-hero-grid">
+    <div>
+      <span class="eyebrow light">CONTACT UPLIFTING HOPE</span>
+      <h1>We Would Love to Hear From You.</h1>
+      <p>Ask a question about the mission, programs, volunteering, supporting a child, donating, or another way to get involved.</p>
+    </div>
+    <div class="form-hero-logo">
+      <img src="assets/uplifting-hope-logo.png" alt="Uplifting Hope Charity Organization logo">
+    </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="wrap contact-grid">
-    <a class="contact-card" href="tel:+17038709966">
-      <div class="contact-icon">☎</div>
-      <h2>Phone</h2>
-      <p>703-870-9966</p>
+<section class="section contact-details-section">
+  <div class="wrap contact-detail-grid">
+    <a href="tel:+17038709966" class="creative-contact-card">
+      <span>☎</span><div><small>CALL US</small><strong>703-870-9966</strong></div>
     </a>
-    <a class="contact-card" href="mailto:Upliftinghope26@gmail.com">
-      <div class="contact-icon">✉</div>
-      <h2>Email</h2>
-      <p>Upliftinghope26@gmail.com</p>
+    <a href="mailto:Upliftinghope26@gmail.com" class="creative-contact-card">
+      <span>✉</span><div><small>EMAIL US</small><strong>Upliftinghope26@gmail.com</strong></div>
     </a>
-    <div class="contact-card">
-      <div class="contact-icon">⌖</div>
-      <h2>Address</h2>
-      <p>2912 Markhams Grant Drive, Woodbridge, VA 22191</p>
+    <div class="creative-contact-card">
+      <span>⌖</span><div><small>ADDRESS</small><strong>2912 Markhams Grant Drive, Woodbridge, VA 22191</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact-form-section" id="contact-form">
+  <div class="wrap form-page-grid">
+    <div class="form-info-column">
+      <span class="eyebrow">SEND A MESSAGE</span>
+      <h2>Tell Us How We Can Help</h2>
+      <p>Your message will be sent to <strong>Upliftinghope26@gmail.com</strong>. Choose the topic that best matches why you are contacting the organization.</p>
+
+      <div class="contact-topic-list">
+        <a href="volunteer.html">Volunteer Application →</a>
+        <a href="support-a-child.html">Support a Child →</a>
+        <a href="donate.html">Donation Questions →</a>
+        <a href="programs.html">Our Programs →</a>
+      </div>
+    </div>
+
+    <div class="email-form-card">
+      <div class="form-card-heading">
+        <span class="eyebrow">CONTACT FORM</span>
+        <h2>Send Your Message</h2>
+        <p>Fields marked * are required.</p>
+      </div>
+
+      <form class="email-form" action="https://formsubmit.co/Upliftinghope26@gmail.com" method="POST" data-ajax-form>
+        <input type="hidden" name="_subject" value="NEW MESSAGE FROM UPLIFTING HOPE WEBSITE">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
+        <div class="form-grid-2">
+          <label>Full Name *<input type="text" name="Full Name" required></label>
+          <label>Email Address *<input type="email" name="Email Address" required></label>
+          <label>Phone Number<input type="tel" name="Phone Number"></label>
+          <label>Preferred Contact
+            <select name="Preferred Contact">
+              <option>Email</option>
+              <option>Phone</option>
+              <option>Either</option>
+            </select>
+          </label>
+        </div>
+
+        <label>What Are You Contacting Us About? *
+          <select name="Topic" required>
+            <option value="">Choose a topic</option>
+            <option>General Question</option>
+            <option>Volunteer</option>
+            <option>Support a Child</option>
+            <option>Donation</option>
+            <option>Programs</option>
+            <option>Community Leader</option>
+            <option>Organization or Business</option>
+            <option>Other</option>
+          </select>
+        </label>
+
+        <label>Subject *<input type="text" name="Subject" required></label>
+
+        <label>Your Message *
+          <textarea name="Message" rows="8" required placeholder="Write your message here."></textarea>
+        </label>
+
+        <button class="btn green full form-submit-button" type="submit">SEND MESSAGE →</button>
+        <div class="form-status" aria-live="polite"></div>
+      </form>
     </div>
   </div>
 </section>
 </main>
-
 <footer class="footer">
   <div class="wrap footer-grid">
     <div class="footer-brand">
@@ -147,5 +211,4 @@
       <span>One Child. One Family. One Community at a Time.</span>
     </div>
   </div>
-</footer>
-<script src="script.js"></script></body></html>
+</footer><script src="script.js"></script><script src="form-handler.js"></script></body></html>

@@ -58,3 +58,17 @@ ULTIMATE DETAIL UPDATE
 - First FormSubmit submission may require a one-time email activation from FormSubmit before automatic delivery begins.
 - Donation and Support a Child pages remain included with Zelle recipient 703-870-9966.
 - Zelle bank finder uses the official Zelle enrollment/bank-finder page.
+
+
+REDESIGN + GRAND OPENING UPDATE
+- Homepage completely redesigned to be cleaner, more creative, and less text-heavy.
+- Uses only user-provided media: organization logo, provided video, and provided Grand Opening invitation.
+- Added Grand Opening section to homepage.
+- Added events.html with the full invitation image and event details.
+- Added Events to the main navigation.
+- Grand Opening details shown from the invitation:
+  Date: Saturday, January 2nd, 2027
+  Time: 12:00 PM
+  Venue: Nise Civic Center, Awka South LGA
+- Video uses the compressed web-compatible UpliftingHopeStory.mp4.
+- volunteer.html remains included and linked.

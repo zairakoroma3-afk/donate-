@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Donate | Uplifting Hope Charity Organization</title>
+<meta name="description" content="Donate to Uplifting Hope Charity Organization using Zelle or contact the organization for other payment options.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <a href="tel:+17038709966">☎ 703-870-9966</a>
+      <a href="mailto:Upliftinghope26@gmail.com">✉ Upliftinghope26@gmail.com</a>
+      <span>📍 2912 Markhams Grant Drive, Woodbridge, VA 22191</span>
+    </div>
+  </div>
+
+  <div class="wrap navrow">
+    <a class="brand" href="index.html">
+      <img src="assets/uplifting-hope-logo.png" alt="Uplifting Hope Charity Organization logo">
+      <div>
+        <strong>UPLIFTING <span>HOPE</span></strong>
+        <small>CHARITY ORGANIZATION</small>
+      </div>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+
+    <nav class="nav" id="mainNav">
+      <a href="index.html">Home</a>
+
+      <div class="dropdown">
+        <button type="button">About ▾</button>
+        <div class="dropdown-menu">
+          <a href="about.html#how-it-started">How It Started</a>
+          <a href="about.html#our-story">Our Story</a>
+          <a href="about.html#mission">Our Mission</a>
+          <a href="about.html#vision">Our Vision</a>
+          <a href="founder.html">Our Founder</a>
+          <a href="about.html#dream">My Dream</a>
+          <a href="about.html#commitment">My Commitment</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button type="button">Our Programs ▾</button>
+        <div class="dropdown-menu program-menu">
+          <a href="programs.html#education">Educational Assistance</a>
+          <a href="programs.html#food">Food & Basic Necessities</a>
+          <a href="programs.html#clothing">Clothing & School Supplies</a>
+          <a href="programs.html#healthcare">Healthcare Support</a>
+          <a href="programs.html#mentorship">Mentorship & Life-Skills</a>
+          <a href="programs.html#families">Vulnerable Families & Young Mothers</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button type="button">Get Involved ▾</button>
+        <div class="dropdown-menu">
+          <a href="get-involved.html#volunteers">Volunteer</a>
+          <a href="get-involved.html#families">Families</a>
+          <a href="get-involved.html#leaders">Community Leaders</a>
+          <a href="get-involved.html#organizations">Organizations & Businesses</a>
+          <a href="donate.html">Donate</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button type="button">Donate ▾</button>
+        <div class="dropdown-menu">
+          <a href="donate.html">Make a Donation</a>
+          <a href="support-a-child.html">Support a Child</a>
+        </div>
+      </div>
+
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <a class="btn gold header-donate" href="donate.html">♥ DONATE NOW</a>
+  </div>
+</header>
+<main>
+<section class="donation-page-hero">
+  <div class="wrap donation-hero-grid">
+    <div>
+      <span class="eyebrow light">MAKE A DONATION</span>
+      <h1>Give Hope. Build Futures. Transform Communities.</h1>
+      <p>Your donation can support the mission of Uplifting Hope Charity Organization as we seek to help orphaned, vulnerable, poor, and disadvantaged children and families.</p>
+      <p>You can choose your donation amount below. For Zelle, the organization uses the phone number <strong>703-870-9966</strong>.</p>
+    </div>
+
+    <div class="donation-logo-card">
+      <img src="assets/uplifting-hope-logo.png" alt="Uplifting Hope Charity Organization logo">
+      <strong>One Child. One Family. One Community at a Time.</strong>
+    </div>
+  </div>
+</section>
+
+<section class="section donation-builder-section">
+  <div class="wrap donation-layout">
+    <div class="donation-builder">
+      <span class="eyebrow">STEP 1</span>
+      <h2>Choose Your Donation Amount</h2>
+      <p>Type the amount you would like to give.</p>
+
+      <label class="amount-label" for="donationAmount">Donation Amount</label>
+      <div class="amount-input-wrap">
+        <span>$</span>
+        <input id="donationAmount" class="donation-amount-input" type="number" min="1" step="0.01" inputmode="decimal" placeholder="0.00">
+      </div>
+
+      <label class="amount-label" for="donationPurpose">Donation Purpose</label>
+      <select id="donationPurpose" class="donation-select">
+        <option value="General Donation">General Donation</option>
+        <option value="Educational Assistance">Educational Assistance</option>
+        <option value="Food and Basic Necessities">Food and Basic Necessities</option>
+        <option value="Clothing and School Supplies">Clothing and School Supplies</option>
+        <option value="Healthcare Support">Healthcare Support</option>
+        <option value="Mentorship and Life-Skills Guidance">Mentorship and Life-Skills Guidance</option>
+        <option value="Vulnerable Families and Young Mothers">Vulnerable Families and Young Mothers</option>
+        <option value="Support a Child">Support a Child</option>
+      </select>
+
+      <button id="reviewDonation" class="btn green full" type="button">REVIEW DONATION →</button>
+
+      <div id="donationSummary" class="donation-summary" hidden>
+        <span class="eyebrow">YOUR DONATION</span>
+        <div class="summary-row"><span>Amount</span><strong id="summaryAmount">$0.00</strong></div>
+        <div class="summary-row"><span>Purpose</span><strong id="summaryPurpose">General Donation</strong></div>
+        <div class="summary-row"><span>Zelle Recipient</span><strong>703-870-9966</strong></div>
+      </div>
+    </div>
+
+    <aside class="payment-panel">
+      <span class="eyebrow">STEP 2</span>
+      <h2>Choose How to Give</h2>
+
+      <div class="payment-option featured-payment">
+        <div class="payment-title">
+          <div class="payment-icon">Z</div>
+          <div>
+            <h3>Zelle</h3>
+            <p>Send your donation using the organization's Zelle phone number.</p>
+          </div>
+        </div>
+
+        <div class="recipient-box">
+          <span>Send Zelle donation to:</span>
+          <strong id="zellePhone">703-870-9966</strong>
+          <button class="copy-button" type="button" data-copy="7038709966">COPY NUMBER</button>
+        </div>
+
+        <a id="zelleBankButton" class="btn gold full external-payment-button" href="https://enroll.zellepay.com/" target="_blank" rel="noopener">
+          CHOOSE YOUR BANK WITH ZELLE →
+        </a>
+
+        <p class="security-note"><strong>Important:</strong> Uplifting Hope Charity Organization will never ask you to type your online banking password into this website. The button above opens Zelle's bank finder so you can choose your financial institution and continue through the bank's own website or app.</p>
+      </div>
+
+      <div class="payment-option">
+        <h3>Other Payment Options</h3>
+        <p>Additional payment account details were not provided for this website. To ask about another way to donate, contact Uplifting Hope Charity Organization directly.</p>
+        <a class="contact-payment-link" href="tel:+17038709966">☎ 703-870-9966</a>
+        <a class="contact-payment-link" href="mailto:Upliftinghope26@gmail.com?subject=Donation%20to%20Uplifting%20Hope%20Charity%20Organization">✉ Upliftinghope26@gmail.com</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="donation-instructions section">
+  <div class="wrap">
+    <div class="section-heading centered">
+      <span class="eyebrow">HOW TO DONATE WITH ZELLE</span>
+      <h2>Three Simple Steps</h2>
+    </div>
+    <div class="donation-steps">
+      <article><span>1</span><h3>Enter Your Amount</h3><p>Type the amount you want to donate and review the donation purpose.</p></article>
+      <article><span>2</span><h3>Open the Zelle Bank Finder</h3><p>Click the Zelle button and choose the bank or credit union you already use.</p></article>
+      <article><span>3</span><h3>Send to 703-870-9966</h3><p>Inside your bank's Zelle service, enter the Uplifting Hope phone number and the same donation amount you selected here.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="donation-help">
+  <div class="wrap donation-help-inner">
+    <div>
+      <span class="eyebrow light">NEED HELP?</span>
+      <h2>Contact Uplifting Hope Charity Organization</h2>
+      <p>If you have a question before donating, contact the organization directly.</p>
+    </div>
+    <div>
+      <a class="btn white" href="tel:+17038709966">CALL 703-870-9966</a>
+      <a class="btn transparent" href="mailto:Upliftinghope26@gmail.com">EMAIL US</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <img src="assets/uplifting-hope-logo.png" alt="Uplifting Hope logo">
+      <h3>Uplifting Hope</h3>
+      <p>Charity Organization</p>
+      <strong>Giving Hope. Building Futures. Transforming Communities.</strong>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="founder.html">Our Founder</a>
+      <a href="programs.html">Our Programs</a>
+      <a href="get-involved.html">Get Involved</a>
+      <a href="donate.html">Donate</a>
+      <a href="support-a-child.html">Support a Child</a>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <p>☎ <a href="tel:+17038709966">703-870-9966</a></p>
+      <p>✉ <a href="mailto:Upliftinghope26@gmail.com">Upliftinghope26@gmail.com</a></p>
+      <p>📍 2912 Markhams Grant Drive, Woodbridge, VA 22191</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="wrap">
+      <span>Uplifting Hope Charity Organization</span>
+      <span>One Child. One Family. One Community at a Time.</span>
+    </div>
+  </div>
+</footer><script src="script.js"></script><script src="donation.js"></script></body></html>
